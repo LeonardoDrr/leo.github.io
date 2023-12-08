@@ -1,0 +1,102 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 95%;
+      height: 90%;
+      margin: 20px auto;
+      border-radius: 4px;
+      box-shadow: 0 0 5px rgba(0, 0, 1, 0.1);
+      padding: 20px;
+      border: solid black;
+      background-image: url("fondo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: cadetblue;
+    }
+
+    .profile-pic {
+      width: 50px;
+      height: 55px;
+      border-radius: 55%;
+      margin-right: 20px;
+    		padding-left: : 10px;
+    }
+
+    .profile-name {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    label {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"] {
+      flex-grow: 1;
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid black;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .input-container {
+      display: flex;
+    }
+
+    button {
+      padding: 8px 16px;
+      font-size: 16px;
+      background-color:  brown	;
+      color: cadetblue;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+
+    button:hover {
+      background-color: yellow;
+    }
+
+    #messages {
+      flex-grow: 1;
+      margin-top: 20px;
+      overflow-y: auto;
+    }
+  
+    .message {
+      background-color: greenyellow;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .default-message {
+      background-color: gainsboro;
+      color: black;
+      margin-left: 0;
+    }
+
+    .user-message {
+      background-color: lavenderblush;
+      color: black;
+      margin-left: auto;
+      text-align: right;
+    }
+
